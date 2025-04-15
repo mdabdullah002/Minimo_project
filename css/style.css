@@ -1,0 +1,243 @@
+/* common css start  */
+body{
+    margin: 0;
+    font-family: "Playfair Display", serif;
+    font-size: 16px;
+    font-weight: 400;
+    color: #626262;
+}
+/* common css end */
+/* header start  */
+header{
+    padding: 35px 0;
+}
+.container{
+    overflow: hidden;
+    width: 90%;
+    /* border: 1px solid; */
+    margin: 0 auto;
+}
+.logo{
+    margin-top: 11px;
+    width: 12%;
+    float: left;
+    /* border: 1px solid red; */
+}
+.logo img{
+    width: 100%;
+}
+.menu{
+    width: 60%;
+    float: right;
+    /* border: 1px solid red; */
+}
+.menu ul{
+    float: right;
+}
+.menu ul li{
+    list-style: none;
+    float: left;
+}
+.menu ul li a{
+    display: inline-block;
+    text-decoration: none;
+    margin: 0px 25px;
+    color: #626262;
+    text-decoration: none;
+    text-transform: uppercase;
+    border: 1px solid transparent;
+    transition: linear .33s;
+}
+.menu ul li:last-child a{
+    margin-right: 0;
+}
+.menu ul li a:hover{
+    border: 1px solid #626262;
+}
+/* header end */
+/* banner start  */
+.banner{}
+.b_img{}
+.b_img img{
+    width: 100%;
+}
+/* banner end */
+/* article start  */
+.article{
+    padding: 100px 0;
+}
+.container2{
+    width: 80%;
+    /* border: 1px solid; */
+    margin: 0 auto;
+}
+.a_content{}
+.text_light{
+    margin-top: 0;
+    font-family: "Ubuntu", sans-serif;
+    font-size: 14px;
+    font-weight: 300;
+    color:#b4ad9e;
+    text-transform: uppercase;
+}
+.text_bold{
+    margin: 25px 0 35px;
+    font-size: 30px;
+    font-weight: 400;
+}
+.text_p{
+    margin: 0%;
+    line-height: 24px;
+}
+.link{
+    display: inline-block;
+    margin-top: 50px;
+    text-decoration: none;
+}
+/* article end  */
+/* feature start  */
+.feature{
+    /* padding: 100px 0; */
+}
+.container3{
+    overflow: hidden;
+    width: 80%;
+    /* border: 1px solid; */
+    margin: 0 auto;
+}
+.f_content{}
+.f_single{
+    float: left;
+    width: 47%;
+    /* border: 1px solid; */
+}
+.yt{
+    margin-right: 58px;
+}
+.ab{
+    margin: 100px 0 100px 0;
+    margin-right: 58px;
+}
+.ff{
+    margin: 100px 0 100px 0;
+}
+.f_img{}
+.f_img img{
+    width: 100%;
+}
+.f_content p{}
+.team{
+    margin-top: 30px;
+}
+.f_content h2{}
+.f_content p{}
+/* feature end  */
+/* news start  */
+.news{
+    background-color: #f0f0f0;
+    padding: 70px 0;
+}
+.singup{
+    text-align: center;
+    color: #333333;
+}
+.singup h1{
+    margin-bottom: 70px;
+    margin-top: 0;
+    font-size: 30px;
+    font-weight: 400;
+}
+.s_form{
+    position: relative;
+    width: 400px;
+    /* border: 3px solid red; */
+    margin: 0 auto;
+    position: relative;
+}
+.s_form input{
+    padding-left: 5px;
+    padding-right: 36px;
+    font-family: "Playfair Display", serif;
+    font-size: 14px;
+    color: #626262;
+    font-weight: 400;
+    width: 342px;
+    height: 35px;
+    border: none;
+    background: transparent;
+    border-bottom: 1px solid #000000
+}
+.s_form input:focus{
+    outline: 0;
+}
+.s_form input{}
+.s_form button{
+    position: absolute;
+    background: transparent;
+    border: none;
+    cursor: pointer;
+    top: 9px;
+    right: 0px;
+}
+.s_form button img{}
+/* news end */
+/* feature2 start  */
+.f2_content{}
+.tt{
+     margin-right: 58px;
+}
+
+/* feature2 end */
+/* load start  */
+.load{
+    padding-bottom: 100px;
+}
+.buttons{
+    width: 134px;
+    height: 41px;
+    margin: 0 auto;
+    text-align: center;
+}
+.buttons button{
+    cursor: pointer;
+    transition: linear .33s;
+    border: 1px solid transparent;
+    padding: 13px 26px;
+    text-transform: uppercase;
+
+}
+.buttons:hover button{
+    border: 1px solid #626262;
+}
+/* load end */
+/* footer start  */
+.footer {
+    height: 42px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 40px;
+    background-color: #f5f5f5;
+    border-top: 1px solid #ddd;
+    font-family: Arial, sans-serif;
+    font-size: 14px;
+  }
+  
+  .footer a {
+    color: #333;
+    text-decoration: none;
+    margin-right: 15px;
+  }
+  
+  .footer a:hover {
+    text-decoration: underline;
+  }
+  
+  .footer-right i {
+    margin-left: 10px;
+  }
+  .foll{
+    cursor: pointer;
+    font-weight: 700;
+  }
+/* footer end */
